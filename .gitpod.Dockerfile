@@ -8,5 +8,5 @@ RUN pip2.7 install genc pycparser
 RUN pyenv install pypy2.7-7.0.0-src
 RUN git clone https://github.com/aheui/rpaheui
 WORKDIR /home/gitpod/rpaheui
-ENV RPYTHON=/home/gitpod/.pyenv/versions/pypy2.7-7.0.0-src/rpython/bin/rpython make
+ENV RPYTHON=/home/gitpod/.pyenv/versions/pypy2.7-7.0.0-src/rpython/bin/rpython
 RUN make
